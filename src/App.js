@@ -13,9 +13,9 @@ const App = () => {
   }
   if(tours <= 0){
     return(
-      <div className="refresh">
-          <h4>No tours Left </h4>
-          <button className="btn-white" onClick={()=>setTour(data)}> Refresh</button>
+      <div className="refresh flex flex-col justify-center items-center gap-y-3 capitalize h-[100vh]">
+          <h4 className="text-2xl opacity-80 font-[700] tracking-wide">No tours Left </h4>
+          <button className="btn-white py-1 px-16 bg-slate-100 border hover:bg-slate-200 border-slate-300" onClick={()=>setTour(data)}> Refresh</button>
       </div>
     );
   }
