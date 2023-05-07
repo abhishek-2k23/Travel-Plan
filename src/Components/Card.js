@@ -7,7 +7,7 @@ const Card = ({image,info,id,price,name, removeCard}) =>
         setReadmore(!readmore);
     }
     return (
-        <div className='card flex flex-col gap-y-6 gap-x-5 md:gap-x-0 border border-slate-200 shadow-xl w-[400px] p-2 rounded-md  items-center justify-start align-baseline'>
+        <div className='card flex flex-col gap-y-6 border border-slate-200 shadow-xl md:w-[400px] p-2 rounded-md  items-center justify-start align-baseline'>
                 <div className=''>
                     <img src={image} alt='img' className='image w-[380px] h-[380px] rounded-sm'></img>
                 </div>
